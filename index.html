@@ -9,15 +9,323 @@
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
+    <div class="katalog">
+      <div class="container">
+        <div class="katalog__inner">
+        <ul class="nav nav-pills mb-3 katalog__list-inner" id="pills-tab" role="tablist">
+          <li class="nav-item catalog__item-inner" role="presentation">
+            <button class="nav-link active katalog__btn" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class='bx bxs-grid-alt'></i>Katalog </button>
+          </li>
+          <li class="nav-item catalog__item-inner" role="presentation">
+            <button class="nav-link katalog__btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class='bx bx-shopping-bag' ></i>savatcha</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+   
+          <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h2 class="katalog__title">katalog</h2>
+            <ul class="katalog__list">
+              <li class="katalog__item" id="cheese">
+                <img src="images/Rectangle 22.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 24.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum"> 10000 som</p>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum">10000</o>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum">10000</o>
+                </div>
+              </li>
+              <li class="katalog__item">
+                <img src="images/Rectangle 26.png" alt="img">
+                <div class="katalog__box">
+                  <p class="katalog__name-text">cheeseburger</p>
+                  <p class="katalog__sum">10000</o>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h2 class="katalog__title">savatcha</h2>
+            <div class="katalog__savatcha">
+
+            </div>
+    <ul class="katalog__list savatcha" id="list1">
+      <li class="savatcha__item" id="item1">
+        <img class="savatcha__img" src="images/Rectangle 22.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box" id="item1__box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum" id="savatchasum">
+              
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum" id="sana">
+              
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum" id="sum1">
+            20000
+          </p>
+        </div>
+      </li>
+      <li class="savatcha__item">
+        <img class="savatcha__img" src="images/Rectangle 24.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum">
+            
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum">
+              2
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum savatcha__sum-all">
+            20000
+          </p>
+        </div>
+      </li>
+      <li class="savatcha__item">
+        <img class="savatcha__img" src="images/Rectangle 26.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum">
+            
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum">
+              2
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum">
+            20000
+          </p>
+        </div>
+      </li>
+      <li class="savatcha__item">
+        <img class="savatcha__img" src="images/Rectangle 22.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum">
+            
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum">
+              
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum">
+            20000
+          </p>
+        </div>
+      </li>
+      <li class="savatcha__item">
+        <img class="savatcha__img" src="images/Rectangle 24.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum">
+              
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum">
+              
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum">
+            20000
+          </p>
+        </div>
+      </li>
+      <li class="savatcha__item">
+        <img class="savatcha__img" src="images/Rectangle 26.png" alt="img">
+        <div class="savatcha__sum-box">
+          <h3 class="savatcha__item-title">
+            cheseburger
+          </h3>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              narxi
+            </p>
+            <p class="savatcha__sum">
+              
+            </p>
+          </div>
+          <div class="savatcha__item-box">
+            <p class="savatcha__sum1">
+              miqdori
+            </p>
+            <p class="savatcha__sum">
+              
+            </p>
+          </div>
+        </div>
+        <div class="savatcha__narx-box">
+          <p class="savatcha__sum1">
+            umumiy narxi
+          </p>
+          <p class="savatcha__sum">
+            20000
+          </p>
+        </div>
+      </li>
+    </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
     <script src="js/main.js"></script>
   </body>
 </html>

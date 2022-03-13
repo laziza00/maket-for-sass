@@ -1,0 +1,63 @@
+
+.savatcha {
+    display: flex;
+    justify-content: center;
+    .savatcha__item {
+        position: relative;
+        width: 80%;
+        border: 2px solid  rgb(67, 67, 180);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+        margin: 0 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+        .savatcha__img {
+            width: 80px;
+            height: 80px;
+        }
+        .savatcha__item-title {
+            font-size: 20px;
+            font-weight: 600;
+            color:  rgb(67, 67, 180);
+            text-transform: capitalize;
+            margin: 0 0 15px 0;
+        }
+        .savatcha__item-box {
+            display: flex;
+            .savatcha__sum1 {
+                font-size: 16px;
+                color:  rgb(67, 67, 180);
+                text-transform: capitalize;
+                margin: 0 10px 10px 0;
+            }
+            .savatcha__sum {
+                font-size: 16px;
+                font-weight: 700;
+                color:  rgb(67, 67, 180);
+                text-transform: capitalize;
+                margin: 0 10px 10px 0;
+            }
+
+        }
+        .savatcha__narx-box {
+            display: flex;
+            justify-content: flex-end;
+            .savatcha__sum1 {
+                font-size: 16px;
+                color:  rgb(67, 67, 180);
+                text-transform: capitalize;
+                margin: 0 10px 10px 0;
+            }
+            .savatcha__sum {
+                font-size: 16px;
+                font-weight: 700;
+                color:  rgb(67, 67, 180);
+                text-transform: capitalize;
+                margin: 0 10px 10px 0;
+            }
+
+        }
+    
+    }
+}
